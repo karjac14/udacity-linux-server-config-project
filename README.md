@@ -14,10 +14,27 @@ The following configuations are needed for the grader:
 IP: 18.216.180.137  
 SSH port: 2200  
 URL: http://www.18.216.180.137.xip.io/  
+Grader user passwrod: 12345
 
-## Summary
+## Summary of Installed Software
 
-One major new thing I did here, that I recently learned, is setting up a virtual environment that keeps the python application and its dependencies isolated from the main system. It keeps the dependencies easy to maintain and located. A `pip` package called `virtualenv` has been installed. 
+#### Through Advanced Package Tool (apt-get)
+`apache2`  
+`libapache2-mod-wsgi` - This is an Apache module that provides a WSGI (Web Server Gateway Interface, a standard interface between web server software and web applications written in Python) compliant interface for hosting Python based web applications within Apache. 
+`git`  
+`python-pip`  
+`python-dev`  
+`postgresql`  
+
+#### Through Python Pip
+
+`virtualenv` - One major new thing I did here, that I recently learned, is setting up a virtual environment that keeps the python application and its dependencies isolated from the main system. It keeps the dependencies easy to maintain and located. A `pip` package called `virtualenv` has been installed. 
+
+`sqlalchemy`  
+`psycopg2`  
+`oauth2client`  
+`requests`  
+`httplib2`  
 
 ## Resources
 
